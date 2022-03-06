@@ -1,0 +1,72 @@
+
+.logo {
+  width: 200px;
+}
+#main-nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul li {
+  display: inline-block;
+  padding: 12px;
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.moblieMenuIcon{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .top-header-wrap{
+    background-color: white;
+  }
+  .menu {
+    background: white;
+    position: fixed;
+    top: 80px;
+    left: -900px;
+    width: 100%;
+    transition: all 0.2s;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .moblieMenuIcon p {
+    font-size: 16px;
+    cursor: pointer;
+  }
+ .moblieMenuIcon {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 4px;
+  font-weight: 600;
+  display: block !important;
+
+  }
+  .showMobileMenu{
+    left: 0 !important; 
+   }
+
+       /* window part stat  */
+       .window_head {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    button.btn.rounded-pill.m-auto.py-3.my-5.btn-outline-primary.btn-lg {
+        width: 50% !important;
+    }
+
+    /* window part end  */
+}
