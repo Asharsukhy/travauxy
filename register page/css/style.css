@@ -1,0 +1,42 @@
+img.icon {
+    position: absolute;
+    padding: 1.4rem 0 0 1.2rem;
+    min-width: 2rem;
+}
+
+input,
+select {
+    height: 3.4rem;
+    margin-bottom: 8px !important;
+    margin: 0;
+    border-width: 2px !important;
+    padding-left: 2rem !important;
+    text-indent: 1rem !important;
+    color: #595959 !important;
+}
+
+.btn {
+    height: 3.5rem;
+    border-radius: 50px !important;
+    background: #017acd !important;
+    margin: 8px 0 0;
+}
+
+.btn:hover {
+    background: #01528a !important;
+}
+
+.text-center {
+    font-size: 9px;
+    margin: 11px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+img.p-img {
+    padding-right: 19px;
+    width: 10%;
+}
